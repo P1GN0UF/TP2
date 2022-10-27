@@ -25,7 +25,7 @@ while True:
             nombre_essaie = 0
             print("Choisissait bos nombre minimal et un nombre maximal pour jouer")
             nombremm = int(input("Entrer un nombre minimal:"))
-            nombremx = int(input("Entrer un nombre miximal:"))
+            nombremx = int(input("Entrer un nombre maximal:"))
             nombre_aleatoire = random.randint(nombremm, nombremx)
             print("J'ai choisit un chiffre entre", nombremm, "et", nombremx, "je pense a quoi")
 
